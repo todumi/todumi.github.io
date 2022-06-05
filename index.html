@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Minh's profile</title>
+</head>
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <a class="navbar-brand" id="outside" href="/index.html">Đức Minh</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav custom-center">
+                <a class="nav-item nav-link tab" id="about">giới thiệu</a>
+                <a class="nav-item nav-link tab" id="projects">dự án</a>
+                <a class="nav-item nav-link tab" id="contact">liên hệ</a>
+                <a class="nav-item nav-link tab" id="resume">resume</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main -->
+    <div id="main">
+        <div id="image">
+            <img src="static/avatar.jpg" alt="">
+        </div>
+
+        <div id="tabs">
+            <div id="tab-about" class="hidden">
+                <h2 class="header">Chào, mình là Đức Minh!</h2>
+                <p>
+                    Học sinh chuyên Tin trường THPT chuyên Sư phạm. Hiện tại, mình đang học 
+                    về khoa học máy tính, chủ yếu là An ninh mạng. Mình từng làm một số dự án
+                    bao gồm các ứng dụng Desktop và Web.
+                </p>
+                <br/>
+                <h2 class="header">Một vài sở thích của mình</h2>
+                <ul>
+                    <li><strong>Máy tính</strong>: Mọi thứ về máy tính, từ cơ chế bán dẫn
+                    của CPU đến blockchain và trí tuệ nhân tạo.</li>
+                    <li><strong>Khoa học tên lửa</strong>: Mình thích tên lửa, đặc biệt là
+                    các hệ thống tên lửa đẩy tái sử dụng</li>
+                    <li><strong>Tiếng Nhật</strong>: Vì sở thích về văn hóa anime/manga</li>
+                    <li><strong>Piano</strong>: Chủ yếu là nhạc anime, hiện tại mình đang thử
+                    <a href="https://youtu.be/FimPPABP51Q">bản cover Sangenshoku của zzz</a></li>
+                </ul>
+            </div>
+
+            <div id="tab-projects" class="hidden">
+                <p id="title" class="header">Một vài dự án thú vị của mình</p>
+                <a class="proj-link" style="color: goldenrod" href="/">???</a>
+                <div id="description">
+                    Đoán xem?
+                </div><br/>
+                <a class="proj-link" style="color: goldenrod">???</a>
+                <div id="description">
+                    Mở khóa dự án bằng cách nạp lần đầu :D
+                </div><br>
+                
+                <p>Hiện tại mình chưa muốn chia sẻ các dự án của mình dưới danh tính này,
+                    mong bạn thông cảm.
+                </p>
+            </div>
+
+            <div id="tab-contact" class="hidden">
+                <p>Mọi liên hệ xin thông qua <em><a  href="https://www.facebook.com/SuperpositionHanoi">tổ chức Superposition Hà Nội</a></em>.</p>
+            </div>
+
+            <div id="tab-resume" class="hidden">
+                <h3><a style="color:goldenrod" href="http://www.msnlabs.com/img/resume-sample.pdf">Resume</a> của mình!</h3>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

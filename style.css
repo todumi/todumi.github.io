@@ -1,0 +1,117 @@
+body {
+    font-size: 1em;
+}
+
+.navbar-brand {
+    font-size: 1.25em !important;
+}
+
+nav {
+    padding: 5vh 5vw !important;
+    overflow: hidden;
+    background-color: white;
+    font-size: 1.5em;
+}
+
+.custom-center {
+    margin: auto;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+img {
+    max-width: 25vw;
+    height: auto;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8rem;
+    box-shadow:
+        12px 16px 0 0px white,
+        14px 14px 0 0px black,
+        14px 18px 0 0px black,
+        10px 18px 0 0px black;
+}
+
+#main {
+    display: flex;
+    margin: 0 15%;
+    margin-bottom: 5%;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#tabs {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+p,
+#description {
+    font-size: 110%;
+}
+
+#title {
+    font-size: 1.75em;
+    color: rgb(97, 97, 97);
+}
+
+.proj-link,
+.header {
+    color: goldenrod;
+}
+
+.proj-link {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.link,
+.link:hover {
+    color: steelblue;
+}
+
+.hidden {
+    display: none;
+}
+
+.clicked {
+    color: black !important;
+}
+
+#outside {
+    display: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 1000px) {
+    #outside {
+        display: inline;
+    }
+
+    #main {
+        display: inline-block;
+    }
+
+    #image {
+        display: none;
+    }
+
+    #tabs {
+        margin-left: 0%;
+    }
+}
+
+@media (min-width: 1500px) {
+
+    p,
+    #description {
+        font-size: 130%;
+    }
+
+}
